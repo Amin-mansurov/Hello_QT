@@ -18,6 +18,8 @@ It shows a window with a button and a label. Every time the button is clicked, a
 ## 🚀 Build Instructions (qmake)
 
 ```bash
-qmake
+mkdir build/
+cd build
+qmake ../helloworld.pro
 make
 ./your_app_name
